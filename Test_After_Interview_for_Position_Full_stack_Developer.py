@@ -14,7 +14,7 @@ def remove_duplicates(arr1, arr2):
     result = []
     
     for i in arr_all:
-        if i not in intersection and i not in result:
+        if i not in intersection:
             result.append(i)
     
     return result
